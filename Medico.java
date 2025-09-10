@@ -22,7 +22,7 @@ public class Medico extends Pessoa {
         this.especialidade = especialidade;
     }
 
-    public void relatorioMedico() {
+    public void relatorio() {
         System.out.println("\n===== DADOS DO MÉDICO =====");  
         System.out.println("Nome: " + getNome());
         System.out.println("CPF: " + getCpf());
