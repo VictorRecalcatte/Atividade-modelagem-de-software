@@ -13,7 +13,7 @@ public class Paciente extends Pessoa {
         this.planoSaude = planoSaude;
     }
 
-    public void relatorioPaciente() {
+    public void relatorio() {
     System.out.println("\n===== DADOS DO PACIENTE =====");
     System.out.println("Nome: " + getNome());
     System.out.println("CPF: " + getCpf());
