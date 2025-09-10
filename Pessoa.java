@@ -39,7 +39,10 @@ public class Pessoa {
         this.email = email;
     }
 
-    public void relatorio(){
-        
+    System.out.println("===== DADOS DA PESSOA =====");
+        System.out.println("Nome: " + nome);
+        System.out.println("CPF: " + cpf);
+        System.out.println("Telefone: " + telefone);
+        System.out.println("Email: " + email);
     }
 }
